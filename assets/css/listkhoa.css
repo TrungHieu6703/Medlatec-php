@@ -1,0 +1,33 @@
+/* Add some basic styling for the list */
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    margin: 0 10px;
+}
+
+.bang a {
+    display: block;
+    padding: 5px 10px;
+    background-color: rgb(242, 248, 255);
+    text-decoration: none;
+    color: #333;
+}
+
+.bang a:hover {
+    background-color: rgb(74, 147, 227, 0.8);
+
+    /* CSS */
+    img {
+        filter: brightness(0) invert(1);
+    }
+
+    p {
+        color: white;
+    }
+}
